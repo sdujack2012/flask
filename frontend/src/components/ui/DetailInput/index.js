@@ -1,0 +1,1 @@
+export { DetailInput } from "./DetailInput";

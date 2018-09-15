@@ -1,0 +1,11 @@
+{
+  "verbose": true,
+  "testRegex": "(/spec/.*|\\.(test|spec))\\.(ts|tsx|js|jsx)$",
+  "testPathIgnorePatterns": ["/dist/", "/node_modules/"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx"],
+  "globals": {
+    "window": {}
+  },
+  "setupFiles": ["./jest.stubs.js"],
+  "setupTestFrameworkScriptFile": "./setupTests.js"
+}

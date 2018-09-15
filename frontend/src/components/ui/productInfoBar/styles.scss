@@ -1,0 +1,25 @@
+.product-info-container {
+  background-image: url("/static/images/bg.png");
+  .product-info {
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    .product-info-name {
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .product-info-date {
+      margin-bottom: 5px;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .product-info-location {
+      color: #999;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+}

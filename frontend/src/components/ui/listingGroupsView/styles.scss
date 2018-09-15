@@ -1,0 +1,40 @@
+.listing-groups-container {
+  margin-top: 45px;
+  margin-bottom: 20px;
+
+  vertical-align: middle;
+  .listing-groups-header {
+    padding-top: 12px;
+    height: 52px;
+    padding-bottom: 3px;
+    padding-left: 1%;
+    background-color: #0288d1;
+    color: #fff;
+  }
+
+  // .listing-groups-body {
+  //   display: block;
+  //   height: 360px;
+  //   overflow-y: visible;
+  //   overflow-x: hidden;
+  // }
+
+  .listing-groups-body .row {
+    padding-top: 12px;
+    height: 52px;
+    padding-bottom: 3px;
+    padding-left: 1%;
+    color: #000;
+    border: 1px;
+    overflow: auto;
+  }
+
+  .listing-groups-body .row .form-check-input {
+    margin-left: 0px;
+  }
+
+  .listing-groups-next-btn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,1 @@
+export { ProductInfoBar } from "./ProductInfoBar";

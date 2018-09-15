@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "es6",
+    "jsx": "react",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "Actions/*": ["./src/actions/*"],
+      "Reducers/*": ["./src/reducers/*"],
+      "Store/*": ["./src/store/*"],
+      "UI/*": ["./src/components/ui/*"],
+      "Pages/*": ["./src/components/pages/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}
