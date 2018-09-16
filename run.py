@@ -1,6 +1,4 @@
-from flaskr import create_app
-
-app = create_app()
+from backend.flaskr import app
 
 if __name__ == '__main__':
     app.run(debug=True)

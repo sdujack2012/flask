@@ -8,7 +8,7 @@ import { Container } from "reactstrap";
 import { Layout } from "UI/Layout";
 import { Login } from "UI/login";
 
-export class HomePageComponent extends Component {
+export class RegisterPageComponent extends Component {
   render() {
     return (
       <Layout>
@@ -20,9 +20,9 @@ export class HomePageComponent extends Component {
   }
 }
 
-HomePageComponent.propTypes = {};
+RegisterPageComponent.propTypes = {};
 
-HomePageComponent.defaultProps = {};
+RegisterPageComponent.defaultProps = {};
 
 const mapStateToProps = state => ({});
 
@@ -36,5 +36,5 @@ const enhance = compose(
   )
 );
 
-const HomePage = enhance(HomePageComponent);
-export { HomePage };
+const RegisterPage = enhance(RegisterPageComponent);
+export { RegisterPage };
