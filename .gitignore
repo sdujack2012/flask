@@ -139,4 +139,6 @@ node_modules/
 
 /vendor
 .vscode
+__pycache__/
+
 
